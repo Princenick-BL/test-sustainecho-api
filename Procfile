@@ -1,1 +1,1 @@
-web: gunicorn backend.wsgi --log-file -
+web: gunicorn test-sustainecho-api.wsgi --log-file -
